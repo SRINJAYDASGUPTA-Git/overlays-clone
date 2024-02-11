@@ -1,8 +1,46 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
+
+const futura = localFont({
+  src:[
+    {
+      path: "./fonts/futura-paneuropean/futura-regular.ttf",
+      style: "normal",
+      weight: "400",
+    },
+    {
+      path: "./fonts/futura-paneuropean/futura-bold.ttf",
+      style: "bold",
+      weight: "700",
+    },
+    {
+      path: "./fonts/futura-paneuropean/futura-light.ttf",
+      style: "normal",
+      weight: "300",
+    },
+    {
+      path: "./fonts/futura-paneuropean/futura-semibold.ttf",
+      style: "semibold",
+      weight: "600",
+    },
+    {
+      path: "./fonts/futura-paneuropean/futura-medium.ttf",
+      style: "medium",
+      weight: "500",
+    },
+    {
+      path: "./fonts/futura-paneuropean/futura-extrabold.ttf",
+      style: "bold",
+      weight: "800",
+    }
+  ],
+  display: "swap",
+  variable: '--font-futura'
+})
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +54,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${futura.variable}`}>{children}</body>
     </html>
   );
 }
