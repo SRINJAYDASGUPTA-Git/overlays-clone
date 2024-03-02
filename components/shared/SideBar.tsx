@@ -15,7 +15,7 @@ const SideBar = () => {
   return (
     <Sheet open={isOpen} onOpenChange={()=>setIsOpen(!isOpen)}>
       <SheetTrigger>
-      <div className="flex-center gap- place-items-center md:px-2">
+      <div className="flex-center gap-1 place-items-center md:px-2">
           <IoMdMenu size={25} className="block md:hidden"/>
           <FiSearch size={20}/>
           <input

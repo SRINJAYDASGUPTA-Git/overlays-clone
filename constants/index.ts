@@ -58,3 +58,31 @@ export const navLinks = [
         ]
     }
 ]
+
+export const products=[
+    {
+        img:'https://overlays.co/cdn/shop/files/5A9E2C77-6BD4-4FF6-8589-653B04FEA5DA.jpg?v=1705859269&width=500',
+        name:'G.O.A.T Relaxed Fit T-shirt - Ultra Soft ',
+        price: 999.00
+    },
+    {
+        img:'https://overlays.co/cdn/shop/files/5A9E2C77-6BD4-4FF6-8589-653B04FEA5DA.jpg?v=1705859269&width=500',
+        name:'G.O.A.T Relaxed Fit T-shirt - Ultra Soft ',
+        price: 999.00
+    },
+    {
+        img:'https://overlays.co/cdn/shop/files/5A9E2C77-6BD4-4FF6-8589-653B04FEA5DA.jpg?v=1705859269&width=500',
+        name:'G.O.A.T Relaxed Fit T-shirt - Ultra Soft ',
+        price: 999.00
+    },
+    {
+        img:'https://overlays.co/cdn/shop/files/5A9E2C77-6BD4-4FF6-8589-653B04FEA5DA.jpg?v=1705859269&width=500',
+        name:'G.O.A.T Relaxed Fit T-shirt - Ultra Soft',
+        price: 999.00
+    },
+    {
+        img:'https://overlays.co/cdn/shop/files/5A9E2C77-6BD4-4FF6-8589-653B04FEA5DA.jpg?v=1705859269&width=500',
+        name:'G.O.A.T Relaxed Fit T-shirt - Ultra Soft ',
+        price: 999.00
+    }
+]
